@@ -1,4 +1,5 @@
 site_name: "Chem & Materials AI Resources"
+site_url: "https://aichemy-hub.github.io/chem-ai-resources/"
 repo_url: "https://github.com/aichemy-hub/chem-ai-resources"
 
 theme:
