@@ -1,0 +1,38 @@
+- id: d2l
+  title: "Dive into Deep Learning"
+  url: "https://d2l.ai"
+  domain: "foundations"
+  type: "online textbook"
+  difficulty: "intermediate"
+  prior_knowledge: "Python, basic calculus, linear algebra"
+  est_time: "30–60 hours (selective reading)"
+  description: "Hands-on deep learning book with MXNet/PyTorch code, Jupyter notebooks, and math at a gentle level."
+  tags: ["deep learning", "textbook", "open access"]
+  open_access: true
+  license: "Apache-2.0"
+
+- id: epfl-ai-chem
+  title: "EPFL AI for Chemistry"
+  url: "https://ai4chemistry.github.io/EPFL-lecture"
+  domain: "chemistry"
+  type: "course materials"
+  difficulty: "intermediate"
+  prior_knowledge: "Undergrad chemistry, basic ML (supervised learning)"
+  est_time: "10–20 hours"
+  description: "Lecture notes, slides, and notebooks for an AI in chemistry course focusing on reaction prediction and synthesis planning."
+  tags: ["reaction prediction", "cheminformatics", "course"]
+  open_access: true
+  license: "CC-BY-NC"
+
+- id: ml4chem
+  title: "ML4Chem"
+  url: "https://ml4chem.dev"
+  domain: "materials"
+  type: "Python package"
+  difficulty: "intermediate"
+  prior_knowledge: "Python, PyTorch, basic atomistic simulations"
+  est_time: "2–4 hours (tutorials)"
+  description: "Open-source ML library for atomistic models in chemistry and materials science with a PyTorch backend."
+  tags: ["atomistic ML", "materials", "python", "library"]
+  open_access: true
+  license: "BSD-3-Clause"
