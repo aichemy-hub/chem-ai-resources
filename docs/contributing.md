@@ -6,10 +6,11 @@ or improve the documentation, your help is appreciated.
 ## How to Contribute
 
 1. **Fork the Repository**: Start by forking this repository to your own GitHub account.
+
 2. **Clone Your Fork**: Clone your forked repository to your local machine.
 
-   ```bash
-   git clone https://github.com/your-username/chem-ai-resources.git
+    ```bash
+    git clone https://github.com/your-username/chem-ai-resources.git
     ```
 
 3. **Create a New Branch**: Create a new branch for your changes.
@@ -21,6 +22,7 @@ or improve the documentation, your help is appreciated.
 4. **Make Your Changes**: Add new resources or make changes to existing files.
     - To add a new resource, edit the `data/resources.yml` file and follow the
         existing format.
+
 5. **Commit Your Changes**: Commit your changes with a descriptive message.
 
     ```bash
