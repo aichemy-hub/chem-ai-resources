@@ -1,6 +1,9 @@
 from pathlib import Path
 import yaml
 
+# Order in which domains should appear
+DOMAIN_ORDER = ["foundations", "chemistry", "materials"]
+
 
 def define_env(env):
     """
@@ -12,6 +15,7 @@ def define_env(env):
 
     # Make the full list available as {{ resources }} in templates
     env.variables["resources"] = resources
+    env.variables["DOMAIN_ORDER"] = DOMAIN_ORDER
 
     @env.macro
     def resources_by_domain(domain):
@@ -20,3 +24,20 @@ def define_env(env):
         Usage in Markdown: {% for r in resources_by_domain("chemistry") %} ... {% endfor %}
         """
         return [r for r in resources if r.get("domain") == domain]
+
+    @env.macro
+    def all_resources_sorted():
+        """
+        Return all resources sorted by DOMAIN_ORDER, then title.
+        Usage in Markdown: {% for r in all_resources_sorted() %} ... {% endfor %}
+        """
+
+        def sort_key(r):
+            domain = (r.get("domain") or "").lower()
+            try:
+                domain_index = DOMAIN_ORDER.index(domain)
+            except ValueError:
+                domain_index = len(DOMAIN_ORDER)
+            return (domain_index, (r.get("title") or "").lower())
+
+        return sorted(resources, key=sort_key)
