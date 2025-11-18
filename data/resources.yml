@@ -1,3 +1,5 @@
+# === FOUNDATIONAL RESOURCES ===
+
 - id: d2l
   title: "Dive into Deep Learning"
   url: "https://d2l.ai"
@@ -24,6 +26,8 @@
   open_access: true
   license: "Unknown"
 
+# === CHEMISTRY ===
+
 - id: epfl-ai-chem
   title: "EPFL AI4Chemistry course"
   url: "https://schwallergroup.github.io/ai4chem_course/"
@@ -40,7 +44,7 @@
 - id: ml4chem
   title: "ML4Chem"
   url: "https://ml4chem.dev"
-  domain: "materials"
+  domain: "chemistry"
   type: "Python package"
   difficulty: "intermediate"
   prior_knowledge: "Python, PyTorch, basic atomistic simulations"
@@ -49,3 +53,5 @@
   tags: ["atomistic ML", "materials", "python", "library"]
   open_access: true
   license: "BSD-3-Clause"
+
+# === MATERIALS SCIENCE ===
