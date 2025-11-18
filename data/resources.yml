@@ -6,14 +6,27 @@
   difficulty: "intermediate"
   prior_knowledge: "Python, basic calculus, linear algebra"
   est_time: "30–60 hours (selective reading)"
-  description: "Hands-on deep learning book with MXNet/PyTorch code, Jupyter notebooks, and math at a gentle level."
+  description: "Hands-on deep learning book with MXNet/PyTorch code, Jupyter notebooks, and maths at a gentle level."
   tags: ["deep learning", "textbook", "open access"]
   open_access: true
   license: "Apache-2.0"
 
+- id: sciml
+  title: "Introduction to Scientific ML"
+  url: "https://predictivesciencelab.github.io/data-analytics-se/index.html#"
+  domain: "foundations"
+  type: "online lecture book"
+  difficulty: "intermediate"
+  prior_knowledge: "Python, basic calculus, linear algebra"
+  est_time: "30–60 hours (selective reading)"
+  description: "Hands-on book with code, Jupyter notebooks, and maths at a gentle level."
+  tags: ["Machine learning", "textbook", "open access"]
+  open_access: true
+  license: "Unknown"
+
 - id: epfl-ai-chem
-  title: "EPFL AI for Chemistry"
-  url: "https://ai4chemistry.github.io/EPFL-lecture"
+  title: "EPFL AI4Chemistry course"
+  url: "https://schwallergroup.github.io/ai4chem_course/"
   domain: "chemistry"
   type: "course materials"
   difficulty: "intermediate"
