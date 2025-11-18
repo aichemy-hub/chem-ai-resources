@@ -3,6 +3,9 @@
 We welcome contributions to this repository! Whether you want to add new resources, fix typos,
 or improve the documentation, your help is appreciated.
 
+Feel free to [open an issue](https://github.com/aichemy-hub/chem-ai-resources/issues) with your suggestions,
+or even better, submit a pull request following the steps below.
+
 ## How to Contribute
 
 1. **Fork the Repository**: Start by forking this repository to your own GitHub account.
