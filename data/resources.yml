@@ -1,7 +1,7 @@
 - id: d2l
   title: "Dive into Deep Learning"
   url: "https://d2l.ai"
-  domain: "foundations"
+  domain: "chemistry"
   type: "online textbook"
   difficulty: "intermediate"
   prior_knowledge: "Python, basic calculus, linear algebra"

@@ -1,0 +1,25 @@
+site_name: "Chem & Materials AI Resources"
+repo_url: "https://github.com/aichemy-hub/chem-ai-resources"
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.instant
+    - search.suggest
+    - search.highlight
+
+plugins:
+  - search
+  - macros
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+
+nav:
+  - Home: index.md
+  - Resources: resources.md

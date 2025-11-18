@@ -1,8 +1,9 @@
-# Chemistry & Materials Machine Learning Resources
+# Chemistry & Materials AI Resources
 
 _All resources are free / open access / open source as far as we are aware._
 
 Jump to:
+
 - [Foundations](#foundations)
 - [Chemistry](#chemistry)
 - [Materials](#materials)
