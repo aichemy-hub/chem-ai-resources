@@ -1,0 +1,31 @@
+name: Deploy MkDocs site
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write  # needed for mkdocs gh-deploy to push gh-pages
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install mkdocs-material mkdocs-macros-plugin
+
+      - name: Build and deploy
+        run: |
+          mkdocs gh-deploy --force
