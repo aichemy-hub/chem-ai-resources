@@ -8,38 +8,117 @@
   difficulty: "intermediate"
   prior_knowledge: "Python, basic calculus, linear algebra"
   est_time: "30–60 hours (selective reading)"
-  description: "Hands-on deep learning book with MXNet/PyTorch code, Jupyter notebooks, and maths at a gentle level."
-  tags: ["deep learning", "textbook", "open access"]
+  description: "Hands-on deep learning book with code tutorials, covering modern deep learning methods with Jupyter notebooks."
+  tags: ["deep learning", "textbook", "notebooks"]
   open_access: true
   license: "Apache-2.0"
 
 - id: sciml
   title: "Introduction to Scientific ML"
-  url: "https://predictivesciencelab.github.io/data-analytics-se/index.html#"
+  url: "https://predictivesciencelab.github.io/data-analytics-se/index.html"
   domain: "foundations"
-  type: "online lecture book"
+  type: "online textbook"
   difficulty: "intermediate"
   prior_knowledge: "Python, basic calculus, linear algebra"
-  est_time: "30–60 hours (selective reading)"
-  description: "Hands-on book with code, Jupyter notebooks, and maths at a gentle level."
-  tags: ["Machine learning", "textbook", "open access"]
+  est_time: "TODO"
+  description: "Online lecture-book on scientific machine learning with interactive coding tutorials for data analytics and uncertainty quantification."
+  tags: ["scientific machine learning", "textbook", "notebooks"]
   open_access: true
-  license: "Unknown"
+  license: "TODO"
+
+- id: ng-ml-intro
+  title: "(Ng) Machine Learning Introduction"
+  url: "https://www.coursera.org/specializations/machine-learning-introduction"
+  domain: "foundations"
+  type: "online course"
+  difficulty: "TODO"
+  prior_knowledge: "TODO"
+  est_time: "TODO"
+  description: "Coursera specialization introducing basic machine learning concepts with a video component and practical assignments."
+  tags: ["machine learning", "course", "video"]
+  open_access: "TODO"
+  license: "TODO"
+
+- id: scikit-learn
+  title: "scikit-learn"
+  url: "https://scikit-learn.org"
+  domain: "foundations"
+  type: "Python package"
+  difficulty: "Beginner"
+  prior_knowledge: "TODO"
+  est_time: "TODO"
+  description: "General-purpose machine learning library in Python with classical models, preprocessing utilities, and metrics."
+  tags: ["machine learning", "python", "library"]
+  open_access: true
+  license: "TODO"
+
+- id: pytorch
+  title: "PyTorch"
+  url: "https://pytorch.org"
+  domain: "foundations"
+  type: "deep learning framework"
+  difficulty: "Beginner"
+  prior_knowledge: "TODO"
+  est_time: "TODO"
+  description: "Deep learning framework with dynamic computation graphs and extensive support for neural network research and applications."
+  tags: ["deep learning", "python", "framework"]
+  open_access: true
+  license: "TODO"
+
+- id: tensorflow
+  title: "TensorFlow"
+  url: "https://www.tensorflow.org"
+  domain: "foundations"
+  type: "deep learning framework"
+  difficulty: "intermediate"
+  prior_knowledge: "TODO"
+  est_time: "TODO"
+  description: "End-to-end open-source platform for machine learning and deep learning, with support for large-scale training and deployment."
+  tags: ["deep learning", "python", "framework"]
+  open_access: true
+  license: "TODO"
+
+- id: huggingface
+  title: "Hugging Face"
+  url: "https://huggingface.co"
+  domain: "foundations"
+  type: "model hub and Python libraries"
+  difficulty: "Beginner"
+  prior_knowledge: "TODO"
+  est_time: "TODO"
+  description: "Ecosystem of pretrained models, datasets, and Python libraries for transformers, diffusion models, and other modern ML architectures."
+  tags: ["transformers", "LLMs", "model hub"]
+  open_access: true
+  license: "TODO"
+
 
 # === CHEMISTRY ===
 
+- id: python-for-chemists
+  title: "Python for Chemists"
+  url: "TODO"
+  domain: "foundations"
+  type: "online tutorial / book"
+  difficulty: "TODO"
+  prior_knowledge: "Basic Python programming"
+  est_time: "TODO"
+  description: "Resource aimed at teaching Python to chemists."
+  tags: ["python", "scientific programming", "chemistry"]
+  open_access: true
+  license: "TODO"
+
 - id: epfl-ai-chem
-  title: "EPFL AI4Chemistry course"
-  url: "https://schwallergroup.github.io/ai4chem_course/"
+  title: "EPFL AI for Chemistry course"
+  url: "https://github.com/schwallergroup/ai4chem_course"
   domain: "chemistry"
   type: "course materials"
   difficulty: "intermediate"
   prior_knowledge: "Undergrad chemistry, basic ML (supervised learning)"
   est_time: "10–20 hours"
-  description: "Lecture notes, slides, and notebooks for an AI in chemistry course focusing on reaction prediction and synthesis planning."
+  description: "Lecture notes, slides, and notebooks for AI in chemistry, focusing on reaction prediction and synthesis planning."
   tags: ["reaction prediction", "cheminformatics", "course"]
   open_access: true
-  license: "CC-BY-NC"
+  license: "TODO"
 
 - id: ml4chem
   title: "ML4Chem"
@@ -49,9 +128,166 @@
   difficulty: "intermediate"
   prior_knowledge: "Python, PyTorch, basic atomistic simulations"
   est_time: "2–4 hours (tutorials)"
-  description: "Open-source ML library for atomistic models in chemistry and materials science with a PyTorch backend."
+  description: "Open-source machine learning library for atomistic models in chemistry and materials science with a PyTorch backend."
   tags: ["atomistic ML", "materials", "python", "library"]
   open_access: true
   license: "BSD-3-Clause"
 
+- id: scicomp-chem
+  title: "Scientific Computing for Chemists with Python"
+  url: "https://weisscharlesj.github.io/SciCompforChemists/notebooks/introduction/intro.html"
+  domain: "chemistry"
+  type: "online textbook"
+  difficulty: "TODO"
+  prior_knowledge: "TODO"
+  est_time: "TODO"
+  description: "Online textbook on programming and scientific computing for chemists, featuring Python-based coding tutorials."
+  tags: ["python", "scientific computing", "chemistry", "textbook"]
+  open_access: true
+  license: "TODO"
+
+- id: chemeng-rl
+  title: "Reinforcement Learning for ChemEng"
+  url: "https://github.com/MaximilianB2/chemengRL"
+  domain: "chemistry"
+  type: "tutorial notebooks"
+  difficulty: "TODO"
+  prior_knowledge: "TODO"
+  est_time: "TODO"
+  description: "Educational reinforcement learning implementation with tutorial notebooks aimed at chemical engineering applications."
+  tags: ["reinforcement learning", "chemical engineering", "notebooks"]
+  open_access: true
+  license: "TODO"
+
+- id: rdkit
+  title: "RDKit"
+  url: "https://www.rdkit.org"
+  domain: "chemistry"
+  type: "Python package"
+  difficulty: "TODO"
+  prior_knowledge: "TODO"
+  est_time: "TODO"
+  description: "Open-source toolkit for cheminformatics, enabling construction, manipulation, and analysis of molecular structures and fingerprints."
+  tags: ["cheminformatics", "molecules", "descriptors", "fingerprints"]
+  open_access: true
+  license: "TODO"
+
+- id: stk
+  title: "STK"
+  url: "https://github.com/lukasturcani/stk"
+  domain: "chemistry"
+  type: "Python package"
+  difficulty: "Beginner"
+  prior_knowledge: "TODO"
+  est_time: "TODO"
+  description: "Python library for the construction and manipulation of complex molecules, supramolecular assemblies, and molecular databases."
+  tags: ["supramolecular", "molecules", "python", "library"]
+  open_access: true
+  license: "TODO"
+
+- id: stko
+  title: "STKO"
+  url: "https://github.com/JelfsMaterialsGroup/stko"
+  domain: "chemistry"
+  type: "Python package"
+  difficulty: "Beginner"
+  prior_knowledge: "TODO"
+  est_time: "TODO"
+  description: "Collection of molecular optimisers and property calculators designed for use with stk and supramolecular systems."
+  tags: ["supramolecular", "optimisation", "properties", "python"]
+  open_access: true
+  license: "TODO"
+
+- id: mordred
+  title: "MORDRED"
+  url: "https://github.com/mordred-descriptor/mordred"
+  domain: "chemistry"
+  type: "Python package"
+  difficulty: "Beginner"
+  prior_knowledge: "TODO"
+  est_time: "TODO"
+  description: "Molecular descriptor calculator capable of generating a wide range of descriptors for cheminformatics applications."
+  tags: ["molecular descriptors", "cheminformatics", "python"]
+  open_access: true
+  license: "TODO"
+
+- id: gauche
+  title: "GAUCHE"
+  url: "https://github.com/leojklarner/gauche"
+  domain: "chemistry"
+  type: "Python package"
+  difficulty: "Intermediate"
+  prior_knowledge: "TODO"
+  est_time: "TODO"
+  description: "Library for Gaussian processes in chemistry, enabling probabilistic modeling and surrogate models for chemical problems."
+  tags: ["gaussian processes", "chemistry", "bayesian modelling"]
+  open_access: true
+  license: "TODO"
+
+- id: baybe
+  title: "BayBE"
+  url: "https://emdgroup.github.io/baybe/stable/"
+  domain: "chemistry"
+  type: "Python package"
+  difficulty: "Beginner"
+  prior_knowledge: "TODO"
+  est_time: "TODO"
+  description: "Bayesian optimization package focused on chemistry applications, with tools for experiment planning and optimization."
+  tags: ["bayesian optimization", "chemistry", "experiments"]
+  open_access: true
+  license: "TODO"
+
+- id: botorch
+  title: "BoTorch"
+  url: "https://botorch.org"
+  domain: "foundations"
+  type: "Python package"
+  difficulty: "TODO"
+  prior_knowledge: "TODO"
+  est_time: "TODO"
+  description: "Bayesian optimization library built on PyTorch, supporting Gaussian process models and acquisition functions for global optimization."
+  tags: ["bayesian optimization", "gaussian processes", "pytorch"]
+  open_access: true
+  license: "TODO"
+
+
 # === MATERIALS SCIENCE ===
+
+- id: matchem-datasets
+  title: "MatChem Dataset Repository"
+  url: "https://github.com/blaiszik/awesome-matchem-datasets"
+  domain: "materials"
+  type: "dataset index"
+  difficulty: "Beginner"
+  prior_knowledge: "TODO"
+  est_time: "TODO"
+  description: "Curated list of datasets for machine learning with materials, including links to data resources and related projects."
+  tags: ["datasets", "materials", "curated list"]
+  open_access: true
+  license: "TODO"
+
+- id: dscribe
+  title: "DScribe"
+  url: "https://singroup.github.io/dscribe/latest/tutorials/tutorials.html"
+  domain: "materials"
+  type: "Python package"
+  difficulty: "Beginner"
+  prior_knowledge: "TODO"
+  est_time: "TODO"
+  description: "Library for computing advanced descriptors for molecules and materials, including SOAP, MBTR, and other atomistic representations."
+  tags: ["descriptors", "materials", "molecules", "python"]
+  open_access: true
+  license: "TODO"
+
+- id: python-for-physicists
+  title: "Python for Physicists"
+  url: "TODO"
+  domain: "foundations"
+  type: "online tutorial / book"
+  difficulty: "TODO"
+  prior_knowledge: "Basic Python programming"
+  est_time: "TODO"
+  description: "Resource aimed at teaching Python to physicists."
+  tags: ["python", "scientific programming", "physicists"]
+  open_access: true
+  license: "TODO"
