@@ -91,6 +91,70 @@
   open_access: true
   license: "TODO"
 
+- id: bayesian-computation-book
+  title: "Bayesian Modeling and Computation in Python"
+  url: "https://bayesiancomputationbook.com/welcome.html"
+  domain: "foundations"
+  type: "online textbook"
+  difficulty: "intermediate"
+  prior_knowledge: "Probability theory, linear algebra, basic Python or R"
+  est_time: "20–40 hours"
+  description: "Applied textbook that walks through Bayesian computation using PyMC, ArviZ and TensorFlow Probability. Includes practical code-examples and notebooks. Tutorials included."
+  tags: ["bayesian statistics", "probabilistic programming", "python notebooks"]
+  open_access: true
+  license: "CC BY-NC-SA 4.0"
+
+- id: d2l-ai
+  title: "Dive into Deep Learning"
+  url: "https://d2l.ai/index.html"
+  domain: "foundations"
+  type: "online textbook"
+  difficulty: "beginner"
+  prior_knowledge: "Basic Python programming, linear algebra"
+  est_time: "30–60 hours"
+  description: "Interactive textbook with Jupyter notebooks and runnable code (PyTorch, MXNet) for deep learning. Great hands-on start."
+  tags: ["deep learning", "notebooks", "python"]
+  open_access: true
+  license: "TODO"
+
+- id: geometric-deep-learning-book
+  title: "Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges"
+  url: "https://geometricdeeplearning.com/book/"
+  domain: "foundations"
+  type: "online textbook"
+  difficulty: "advanced"
+  prior_knowledge: "Deep learning, differential geometry, graph theory"
+  est_time: "20–40 hours"
+  description: "Advanced textbook covering geometric deep learning topics (manifolds, graphs, gauge theory) with some code examples. No heavy notebooks listed."
+  tags: ["geometric deep learning", "graph neural networks", "manifolds"]
+  open_access: true
+  license: "TODO"
+
+- id: interpretable-ml-book
+  title: "Interpretable Machine Learning"
+  url: "https://christophm.github.io/interpretable-ml-book/"
+  domain: "foundations"
+  type: "online textbook"
+  difficulty: "intermediate"
+  prior_knowledge: "Machine learning basics, Python"
+  est_time: "20–30 hours"
+  description: "Book for practitioners wanting to understand model interpretability. Includes Python notebook examples for many methods."
+  tags: ["interpretable ML", "machine learning", "python"]
+  open_access: true
+  license: "CC-BY-SA 4.0"
+
+  - id: udlbook
+  title: "Understanding Deep Learning"
+  url: "https://udlbook.github.io/udlbook/"
+  domain: "foundations"
+  type: "online textbook"
+  difficulty: "intermediate"
+  prior_knowledge: "Basic deep learning concepts, Python"
+  est_time: "15–30 hours"
+  description: "Textbook providing up-to-date deep learning topics (transformers, diffusion models) with exercises and interactive slides; some notebooks included."
+  tags: ["deep learning", "transformers", "visual explanations"]
+  open_access: true
+  license: "TODO"
 
 # === CHEMISTRY ===
 
@@ -250,6 +314,19 @@
   open_access: true
   license: "TODO"
 
+
+- id: dmol-book
+  title: "Deep Learning for Molecules and Materials"
+  url: "https://dmol.pub/"
+  domain: "chemistry"
+  type: "online textbook"
+  difficulty: "Beginner to intermediate"
+  prior_knowledge: "Chemistry fundamentals, Python, basic ML"
+  est_time: "15–30 hours"
+  description: "Textbook focused on deep learning approaches for molecules and materials. Contains Jupyter-book style chapters and notebook examples for hands-on learning."
+  tags: ["molecules", "deep learning", "materials informatics"]
+  open_access: true
+  license: "CC BY-NC 3.0"
 
 # === MATERIALS SCIENCE ===
 
