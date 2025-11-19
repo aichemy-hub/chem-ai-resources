@@ -31,3 +31,6 @@ nav:
   - Quick links (table): table.md
   - All resources: resources.md
   - Contributing: contributing.md
+
+extra_css:
+  - stylesheets/tags.css

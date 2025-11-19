@@ -1,0 +1,11 @@
+/* Small pill-shaped tags for resource cards */
+.md-typeset .tag-pill {
+    display: inline-block;
+    padding: 0.1rem 0.45rem;
+    margin: 0.1rem 0.2rem 0 0;
+    border-radius: 999px;
+    border: 1px solid var(--md-default-fg-color--lighter);
+    font-size: 0.7rem;
+    line-height: 1.4;
+    white-space: nowrap;
+}
