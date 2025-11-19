@@ -23,6 +23,11 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Browse (cards): resources.md
+  - Online Textbooks: textbooks.md
+  - Courses & Course Materials: courses.md
+  - Tutorials & Tutorial Notebooks: tutorials.md
+  - Software & Python packages: software.md
+  - Datasets & Dataset Collections: datasets.md
   - Quick links (table): table.md
+  - All resources: resources.md
   - Contributing: contributing.md

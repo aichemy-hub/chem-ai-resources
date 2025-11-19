@@ -26,6 +26,18 @@ def define_env(env):
         return [r for r in resources if r.get("domain") == domain]
 
     @env.macro
+    def resources_by_domain_and_type(domain, res_type):
+        """
+        Return resources filtered by domain and type, e.g. 'chemistry' and 'Python package'.
+        Usage in Markdown: {% for r in resources_by_domain_and_type("chemistry", "Python package") %} ... {% endfor %}
+        """
+        return [
+            r
+            for r in resources
+            if r.get("domain") == domain and r.get("type") == res_type
+        ]
+
+    @env.macro
     def all_resources_sorted():
         """
         Return all resources sorted by DOMAIN_ORDER, then title.

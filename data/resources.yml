@@ -43,7 +43,7 @@
   title: "scikit-learn"
   url: "https://scikit-learn.org"
   domain: "foundations"
-  type: "Python package"
+  type: "software"
   difficulty: "Beginner"
   prior_knowledge: "TODO"
   est_time: "TODO"
@@ -56,7 +56,7 @@
   title: "PyTorch"
   url: "https://pytorch.org"
   domain: "foundations"
-  type: "deep learning framework"
+  type: "software"
   difficulty: "Beginner"
   prior_knowledge: "TODO"
   est_time: "TODO"
@@ -69,7 +69,7 @@
   title: "TensorFlow"
   url: "https://www.tensorflow.org"
   domain: "foundations"
-  type: "deep learning framework"
+  type: "software"
   difficulty: "intermediate"
   prior_knowledge: "TODO"
   est_time: "TODO"
@@ -82,7 +82,7 @@
   title: "Hugging Face"
   url: "https://huggingface.co"
   domain: "foundations"
-  type: "model hub and Python libraries"
+  type: "dataset"
   difficulty: "Beginner"
   prior_knowledge: "TODO"
   est_time: "TODO"
@@ -94,24 +94,11 @@
 
 # === CHEMISTRY ===
 
-- id: python-for-chemists
-  title: "Python for Chemists"
-  url: "TODO"
-  domain: "foundations"
-  type: "online tutorial / book"
-  difficulty: "TODO"
-  prior_knowledge: "Basic Python programming"
-  est_time: "TODO"
-  description: "Resource aimed at teaching Python to chemists."
-  tags: ["python", "scientific programming", "chemistry"]
-  open_access: true
-  license: "TODO"
-
 - id: epfl-ai-chem
   title: "EPFL AI for Chemistry course"
   url: "https://github.com/schwallergroup/ai4chem_course"
   domain: "chemistry"
-  type: "course materials"
+  type: "online course"
   difficulty: "intermediate"
   prior_knowledge: "Undergrad chemistry, basic ML (supervised learning)"
   est_time: "10–20 hours"
@@ -124,7 +111,7 @@
   title: "ML4Chem"
   url: "https://ml4chem.dev"
   domain: "chemistry"
-  type: "Python package"
+  type: "software"
   difficulty: "intermediate"
   prior_knowledge: "Python, PyTorch, basic atomistic simulations"
   est_time: "2–4 hours (tutorials)"
@@ -150,7 +137,7 @@
   title: "Reinforcement Learning for ChemEng"
   url: "https://github.com/MaximilianB2/chemengRL"
   domain: "chemistry"
-  type: "tutorial notebooks"
+  type: "tutorial"
   difficulty: "TODO"
   prior_knowledge: "TODO"
   est_time: "TODO"
@@ -163,7 +150,7 @@
   title: "RDKit"
   url: "https://www.rdkit.org"
   domain: "chemistry"
-  type: "Python package"
+  type: "software"
   difficulty: "TODO"
   prior_knowledge: "TODO"
   est_time: "TODO"
@@ -176,7 +163,7 @@
   title: "STK"
   url: "https://github.com/lukasturcani/stk"
   domain: "chemistry"
-  type: "Python package"
+  type: "software"
   difficulty: "Beginner"
   prior_knowledge: "TODO"
   est_time: "TODO"
@@ -189,7 +176,7 @@
   title: "STKO"
   url: "https://github.com/JelfsMaterialsGroup/stko"
   domain: "chemistry"
-  type: "Python package"
+  type: "software"
   difficulty: "Beginner"
   prior_knowledge: "TODO"
   est_time: "TODO"
@@ -202,7 +189,7 @@
   title: "MORDRED"
   url: "https://github.com/mordred-descriptor/mordred"
   domain: "chemistry"
-  type: "Python package"
+  type: "software"
   difficulty: "Beginner"
   prior_knowledge: "TODO"
   est_time: "TODO"
@@ -215,7 +202,7 @@
   title: "GAUCHE"
   url: "https://github.com/leojklarner/gauche"
   domain: "chemistry"
-  type: "Python package"
+  type: "software"
   difficulty: "Intermediate"
   prior_knowledge: "TODO"
   est_time: "TODO"
@@ -228,7 +215,7 @@
   title: "BayBE"
   url: "https://emdgroup.github.io/baybe/stable/"
   domain: "chemistry"
-  type: "Python package"
+  type: "software"
   difficulty: "Beginner"
   prior_knowledge: "TODO"
   est_time: "TODO"
@@ -241,12 +228,25 @@
   title: "BoTorch"
   url: "https://botorch.org"
   domain: "foundations"
-  type: "Python package"
+  type: "software"
   difficulty: "TODO"
   prior_knowledge: "TODO"
   est_time: "TODO"
   description: "Bayesian optimization library built on PyTorch, supporting Gaussian process models and acquisition functions for global optimization."
   tags: ["bayesian optimization", "gaussian processes", "pytorch"]
+  open_access: true
+  license: "TODO"
+
+- id: dscribe
+  title: "DScribe"
+  url: "https://singroup.github.io/dscribe/latest/tutorials/tutorials.html"
+  domain: "chemistry"
+  type: "software"
+  difficulty: "Beginner"
+  prior_knowledge: "TODO"
+  est_time: "TODO"
+  description: "Library for computing advanced descriptors for molecules and materials, including SOAP, MBTR, and other atomistic representations."
+  tags: ["descriptors", "materials", "molecules", "python"]
   open_access: true
   license: "TODO"
 
@@ -257,7 +257,7 @@
   title: "MatChem Dataset Repository"
   url: "https://github.com/blaiszik/awesome-matchem-datasets"
   domain: "materials"
-  type: "dataset index"
+  type: "dataset"
   difficulty: "Beginner"
   prior_knowledge: "TODO"
   est_time: "TODO"
@@ -266,28 +266,15 @@
   open_access: true
   license: "TODO"
 
-- id: dscribe
-  title: "DScribe"
-  url: "https://singroup.github.io/dscribe/latest/tutorials/tutorials.html"
-  domain: "materials"
-  type: "Python package"
-  difficulty: "Beginner"
-  prior_knowledge: "TODO"
-  est_time: "TODO"
-  description: "Library for computing advanced descriptors for molecules and materials, including SOAP, MBTR, and other atomistic representations."
-  tags: ["descriptors", "materials", "molecules", "python"]
-  open_access: true
-  license: "TODO"
-
 - id: python-for-physicists
   title: "Python for Physicists"
-  url: "TODO"
+  url: "https://lucydot.github.io/python_novice/"
   domain: "foundations"
-  type: "online tutorial / book"
-  difficulty: "TODO"
+  type: "course"
+  difficulty: "Beginner"
   prior_knowledge: "Basic Python programming"
-  est_time: "TODO"
-  description: "Resource aimed at teaching Python to physicists."
+  est_time: "12 hours"
+  description: "Software Carpentry style course aimed at teaching Python to physicists."
   tags: ["python", "scientific programming", "physicists"]
   open_access: true
   license: "TODO"
