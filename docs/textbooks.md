@@ -16,6 +16,8 @@ Below is a collection of **free / open** online textbooks at the interface betwe
     **Prior knowledge:** {{ r.prior_knowledge }}  
     **Estimated time:** {{ r.est_time }}
 
+    {% for tag in r.tags %}<span class="tag-pill">{{ tag }}</span>{% endfor %}
+
 {% endfor %}
 </div>
 
@@ -33,6 +35,8 @@ Below is a collection of **free / open** online textbooks at the interface betwe
     **Prior knowledge:** {{ r.prior_knowledge }}  
     **Estimated time:** {{ r.est_time }}
 
+    {% for tag in r.tags %}<span class="tag-pill">{{ tag }}</span>{% endfor %}
+
 {% endfor %}
 </div>
 
@@ -40,6 +44,7 @@ Below is a collection of **free / open** online textbooks at the interface betwe
 
 <div class="grid cards" markdown>
 {% for r in resources_by_domain_and_type("materials", "online textbook") %}
+
 - **[{{ r.title }}]({{ r.url }})**  
     _{{ r.type|capitalize }} · {{ r.difficulty|title }}_
 
@@ -47,6 +52,8 @@ Below is a collection of **free / open** online textbooks at the interface betwe
 
     **Prior knowledge:** {{ r.prior_knowledge }}  
     **Estimated time:** {{ r.est_time }}
+
+    {% for tag in r.tags %}<span class="tag-pill">{{ tag }}</span>{% endfor %}
 
 {% endfor %}
 </div>  

@@ -13,7 +13,9 @@ Below is a collection of **free / open** software resources at the interface bet
 
     {{ r.description }}
 
-    **Prior knowledge:** {{ r.prior_knowledge }}  
+    **Prior knowledge:** {{ r.prior_knowledge }}
+
+    {% for tag in r.tags %}<span class="tag-pill">{{ tag }}</span>{% endfor %}
 
 {% endfor %}
 </div>
@@ -29,7 +31,9 @@ Below is a collection of **free / open** software resources at the interface bet
 
     {{ r.description }}
 
-    **Prior knowledge:** {{ r.prior_knowledge }}  
+    **Prior knowledge:** {{ r.prior_knowledge }}
+
+    {% for tag in r.tags %}<span class="tag-pill">{{ tag }}</span>{% endfor %}
 
 {% endfor %}
 </div>
@@ -38,12 +42,15 @@ Below is a collection of **free / open** software resources at the interface bet
 
 <div class="grid cards" markdown>
 {% for r in resources_by_domain_and_type("materials", "software") %}
+
 - **[{{ r.title }}]({{ r.url }})**  
     _{{ r.type|capitalize }} · {{ r.difficulty|title }}_
 
     {{ r.description }}
 
-    **Prior knowledge:** {{ r.prior_knowledge }}  
+    **Prior knowledge:** {{ r.prior_knowledge }}
+
+    {% for tag in r.tags %}<span class="tag-pill">{{ tag }}</span>{% endfor %}
 
 {% endfor %}
 </div>  

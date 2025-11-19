@@ -14,6 +14,8 @@
     **Prior knowledge:** {{ r.prior_knowledge }}  
     **Estimated time:** {{ r.est_time }}
 
+    {% for tag in r.tags %}<span class="tag-pill">{{ tag }}</span>{% endfor %}
+
 {% endfor %}
 
 </div>
@@ -32,6 +34,8 @@
     **Prior knowledge:** {{ r.prior_knowledge }}  
     **Estimated time:** {{ r.est_time }}
 
+    {% for tag in r.tags %}<span class="tag-pill">{{ tag }}</span>{% endfor %}
+
 {% endfor %}
 
 </div>
@@ -49,6 +53,8 @@
 
     **Prior knowledge:** {{ r.prior_knowledge }}  
     **Estimated time:** {{ r.est_time }}
+
+    {% for tag in r.tags %}<span class="tag-pill">{{ tag }}</span>{% endfor %}
 
 {% endfor %}
 

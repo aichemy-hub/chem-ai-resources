@@ -16,9 +16,7 @@ at the interface between chemistry, materials and machine learning / AI.
 
     **Prior knowledge:** {{ r.prior_knowledge }}
 
-    {% for tag in r.tags %}
-    <span class="tag-pill">{{ tag }}</span>
-    {% endfor %}
+    {% for tag in r.tags %}<span class="tag-pill">{{ tag }}</span>{% endfor %}
 
 {% endfor %}
 
@@ -37,9 +35,7 @@ at the interface between chemistry, materials and machine learning / AI.
 
     **Prior knowledge:** {{ r.prior_knowledge }}
 
-    {% for tag in r.tags %}
-    <span class="tag-pill">{{ tag }}</span>
-    {% endfor %}
+    {% for tag in r.tags %}<span class="tag-pill">{{ tag }}</span>{% endfor %}
 
 {% endfor %}
 
@@ -58,9 +54,7 @@ at the interface between chemistry, materials and machine learning / AI.
 
     **Prior knowledge:** {{ r.prior_knowledge }}
 
-    {% for tag in r.tags %}
-    <span class="tag-pill">{{ tag }}</span>
-    {% endfor %}
+    {% for tag in r.tags %}<span class="tag-pill">{{ tag }}</span>{% endfor %}
 
 {% endfor %}
 
