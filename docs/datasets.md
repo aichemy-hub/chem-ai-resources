@@ -14,7 +14,6 @@ Below is a collection of **free / open** datasets and lists of datasets at the i
     {{ r.description }}
 
     **Prior knowledge:** {{ r.prior_knowledge }}  
-    **Estimated time:** {{ r.est_time }}
 
 {% endfor %}
 </div>
@@ -31,7 +30,6 @@ Below is a collection of **free / open** datasets and lists of datasets at the i
     {{ r.description }}
 
     **Prior knowledge:** {{ r.prior_knowledge }}  
-    **Estimated time:** {{ r.est_time }}
 
 {% endfor %}
 </div>
@@ -46,7 +44,6 @@ Below is a collection of **free / open** datasets and lists of datasets at the i
     {{ r.description }}
 
     **Prior knowledge:** {{ r.prior_knowledge }}  
-    **Estimated time:** {{ r.est_time }}
 
 {% endfor %}
 </div>  

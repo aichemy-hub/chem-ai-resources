@@ -27,7 +27,7 @@
   license: "TODO"
 
 - id: ng-ml-intro
-  title: "(Ng) Machine Learning Introduction"
+  title: "Machine Learning Introduction (Coursera)"
   url: "https://www.coursera.org/specializations/machine-learning-introduction"
   domain: "foundations"
   type: "online course"
@@ -45,7 +45,7 @@
   domain: "foundations"
   type: "software"
   difficulty: "Beginner"
-  prior_knowledge: "TODO"
+  prior_knowledge: "Basic Python programming"
   est_time: "TODO"
   description: "General-purpose machine learning library in Python with classical models, preprocessing utilities, and metrics."
   tags: ["machine learning", "python", "library"]
@@ -58,7 +58,7 @@
   domain: "foundations"
   type: "software"
   difficulty: "Beginner"
-  prior_knowledge: "TODO"
+  prior_knowledge: "Basic Python programming"
   est_time: "TODO"
   description: "Deep learning framework with dynamic computation graphs and extensive support for neural network research and applications."
   tags: ["deep learning", "python", "framework"]
@@ -152,7 +152,7 @@
   domain: "chemistry"
   type: "software"
   difficulty: "TODO"
-  prior_knowledge: "TODO"
+  prior_knowledge: "Basic Python programming"
   est_time: "TODO"
   description: "Open-source toolkit for cheminformatics, enabling construction, manipulation, and analysis of molecular structures and fingerprints."
   tags: ["cheminformatics", "molecules", "descriptors", "fingerprints"]
@@ -165,7 +165,7 @@
   domain: "chemistry"
   type: "software"
   difficulty: "Beginner"
-  prior_knowledge: "TODO"
+  prior_knowledge: "Basic Python programming"
   est_time: "TODO"
   description: "Python library for the construction and manipulation of complex molecules, supramolecular assemblies, and molecular databases."
   tags: ["supramolecular", "molecules", "python", "library"]
@@ -178,7 +178,7 @@
   domain: "chemistry"
   type: "software"
   difficulty: "Beginner"
-  prior_knowledge: "TODO"
+  prior_knowledge: "Basic Python programming, familiarity with stk"
   est_time: "TODO"
   description: "Collection of molecular optimisers and property calculators designed for use with stk and supramolecular systems."
   tags: ["supramolecular", "optimisation", "properties", "python"]
@@ -191,7 +191,7 @@
   domain: "chemistry"
   type: "software"
   difficulty: "Beginner"
-  prior_knowledge: "TODO"
+  prior_knowledge: "Basic Python programming"
   est_time: "TODO"
   description: "Molecular descriptor calculator capable of generating a wide range of descriptors for cheminformatics applications."
   tags: ["molecular descriptors", "cheminformatics", "python"]
@@ -230,7 +230,7 @@
   domain: "foundations"
   type: "software"
   difficulty: "TODO"
-  prior_knowledge: "TODO"
+  prior_knowledge: "Basic Python programming, PyTorch"
   est_time: "TODO"
   description: "Bayesian optimization library built on PyTorch, supporting Gaussian process models and acquisition functions for global optimization."
   tags: ["bayesian optimization", "gaussian processes", "pytorch"]
@@ -243,7 +243,7 @@
   domain: "chemistry"
   type: "software"
   difficulty: "Beginner"
-  prior_knowledge: "TODO"
+  prior_knowledge: "Basic Python programming, atomistic simulations"
   est_time: "TODO"
   description: "Library for computing advanced descriptors for molecules and materials, including SOAP, MBTR, and other atomistic representations."
   tags: ["descriptors", "materials", "molecules", "python"]
