@@ -332,26 +332,26 @@
   url: "https://github.com/MaximilianB2/chemengRL"
   domain: "chemistry"
   type: "tutorial"
-  difficulty: "TODO"
-  prior_knowledge: "TODO"
-  est_time: "TODO"
+  difficulty: "Intermediate to advanced"
+  prior_knowledge: "Chemical engineering, reinforcement learning basics, Python"
+  est_time: "5–10 hours (notebook tutorials)"
   description: "Educational reinforcement learning implementation with tutorial notebooks aimed at chemical engineering applications."
   tags: ["reinforcement learning", "chemical engineering", "notebooks"]
   open_access: true
-  license: "TODO"
+  license: "-"
 
 - id: rdkit
   title: "RDKit"
   url: "https://www.rdkit.org"
   domain: "chemistry"
   type: "software"
-  difficulty: "TODO"
+  difficulty: "-"
   prior_knowledge: "Basic Python programming"
-  est_time: "TODO"
+  est_time: "-"
   description: "Open-source toolkit for cheminformatics, enabling construction, manipulation, and analysis of molecular structures and fingerprints."
   tags: ["cheminformatics", "molecules", "descriptors", "fingerprints"]
   open_access: true
-  license: "TODO"
+  license: "BSD License 2.0"
 
 - id: stk
   title: "STK"
@@ -360,11 +360,11 @@
   type: "software"
   difficulty: "Beginner"
   prior_knowledge: "Basic Python programming"
-  est_time: "TODO"
+  est_time: "-"
   description: "Python library for the construction and manipulation of complex molecules, supramolecular assemblies, and molecular databases."
   tags: ["supramolecular", "molecules", "python", "library"]
   open_access: true
-  license: "TODO"
+  license: "MIT"
 
 - id: stko
   title: "STKO"
@@ -373,11 +373,11 @@
   type: "software"
   difficulty: "Beginner"
   prior_knowledge: "Basic Python programming, familiarity with stk"
-  est_time: "TODO"
+  est_time: "-"
   description: "Collection of molecular optimisers and property calculators designed for use with stk and supramolecular systems."
   tags: ["supramolecular", "optimisation", "properties", "python"]
   open_access: true
-  license: "TODO"
+  license: "MIT"
 
 - id: mordred
   title: "MORDRED"
@@ -386,11 +386,11 @@
   type: "software"
   difficulty: "Beginner"
   prior_knowledge: "Basic Python programming"
-  est_time: "TODO"
+  est_time: "-"
   description: "Molecular descriptor calculator capable of generating a wide range of descriptors for cheminformatics applications."
   tags: ["molecular descriptors", "cheminformatics", "python"]
   open_access: true
-  license: "TODO"
+  license: "BSD-3-Clause"
 
 - id: gauche
   title: "GAUCHE"
@@ -398,12 +398,12 @@
   domain: "chemistry"
   type: "software"
   difficulty: "Intermediate"
-  prior_knowledge: "TODO"
-  est_time: "TODO"
+  prior_knowledge: "Basic Python programming, Gaussian processes, chemistry"
+  est_time: "-"
   description: "Library for Gaussian processes in chemistry, enabling probabilistic modeling and surrogate models for chemical problems."
   tags: ["gaussian processes", "chemistry", "bayesian modelling"]
   open_access: true
-  license: "TODO"
+  license: "MIT"
 
 - id: baybe
   title: "BayBE"
@@ -411,25 +411,25 @@
   domain: "chemistry"
   type: "software"
   difficulty: "Beginner"
-  prior_knowledge: "TODO"
-  est_time: "TODO"
+  prior_knowledge: "Basic Python programming, chemistry"
+  est_time: "-"
   description: "Bayesian optimization package focused on chemistry applications, with tools for experiment planning and optimization."
   tags: ["bayesian optimization", "chemistry", "experiments"]
   open_access: true
-  license: "TODO"
+  license: "Apache-2.0"
 
 - id: botorch
   title: "BoTorch"
   url: "https://botorch.org"
   domain: "foundations"
   type: "software"
-  difficulty: "TODO"
+  difficulty: "Intermediate"
   prior_knowledge: "Basic Python programming, PyTorch"
-  est_time: "TODO"
+  est_time: "-"
   description: "Bayesian optimization library built on PyTorch, supporting Gaussian process models and acquisition functions for global optimization."
   tags: ["bayesian optimization", "gaussian processes", "pytorch"]
   open_access: true
-  license: "TODO"
+  license: "MIT"
 
 - id: dscribe
   title: "DScribe"
