@@ -438,11 +438,11 @@
   type: "software"
   difficulty: "Beginner"
   prior_knowledge: "Basic Python programming, atomistic simulations"
-  est_time: "TODO"
-  description: "Library for computing advanced descriptors for molecules and materials, including SOAP, MBTR, and other atomistic representations."
+  est_time: "-"
+  description: "Library for computing advanced descriptors for molecules and materials, including SOAP, MBTR, and other atomistic representations. Includes tutorials and examples."
   tags: ["descriptors", "materials", "molecules", "python"]
   open_access: true
-  license: "TODO"
+  license: "Apache-2.0"
 
 
 - id: dmol-book
@@ -482,7 +482,7 @@
   description: "Course designed for chemistry students without prior programming experience: uses Python notebooks and real chemical data."
   tags: ["machine learning chemistry", "Python notebooks", "introductory course"]
   open_access: true
-  license: "TODO"
+  license: "-"
 
 - id: homemade-ml
   title: "Homemade Machine Learning"
@@ -505,12 +505,12 @@
   domain: "materials"
   type: "dataset"
   difficulty: "Beginner"
-  prior_knowledge: "TODO"
-  est_time: "TODO"
+  prior_knowledge: "-"
+  est_time: "-"
   description: "Curated list of datasets for machine learning with materials, including links to data resources and related projects."
   tags: ["datasets", "materials", "curated list"]
   open_access: true
-  license: "TODO"
+  license: "MIT"
 
 - id: python-for-physicists
   title: "Python for Physicists"
@@ -523,7 +523,7 @@
   description: "Software Carpentry style course aimed at teaching Python to physicists."
   tags: ["python", "scientific programming", "physicists"]
   open_access: true
-  license: "TODO"
+  license: "CC-BY-4.0"
 
 - id: mat-inf-sparks
   title: "Materials Informatics Video Tutorials (Taylor Sparks)"
@@ -532,11 +532,11 @@
   type: "tutorials"
   difficulty: "Beginner"
   prior_knowledge: "Basic materials science, Python"
-  est_time: "TODO"
+  est_time: "-"
   description: "Video tutorials on materials informatics by Taylor Sparks, covering various topics in the field."
   tags: ["materials informatics", "tutorials", "video"]
   open_access: true
-  license: "TODO"
+  license: "-"
 
 - id: automated-experiment-utk
   title: "Automated Experiment (UTK Spring 2023)"
@@ -549,7 +549,7 @@
   description: "Course material repository for automated experiment design incorporating Gaussian processes and physics discovery. Contains Jupyter notebooks and assignments.  [oai_citation:1‡LinkedIn](https://www.linkedin.com/posts/sergei-kalinin-5bb44b18_github-sergeivkalininutk-spring-2023-activity-7071146873981464576-azzU?utm_source=chatgpt.com)"
   tags: ["automated experimentation", "Gaussian processes", "Bayesian optimisation"]
   open_access: true
-  license: "TODO"
+  license: "MIT"
 
 - id: mse-fall2023-ml-materials
   title: "Machine Learning for Materials: From PCA to ChatGPT (UTK MSE Fall 2023)"
@@ -562,7 +562,7 @@
   description: "Semester-length course on machine learning for materials, from PCA and classical methods to modern deep learning and large language models. Includes Jupyter notebooks, module-based materials, and project-style content focused on real materials-science problems."
   tags: ["materials science", "machine learning", "course notebooks"]
   open_access: true
-  license: "TODO"
+  license: "-"
 
 - id: materials-informatics-utah
   title: "Materials Informatics (MSE5540/6640, University of Utah)"
@@ -575,4 +575,4 @@
   description: "Full course on materials informatics covering data repositories, featurization, best practices, and ML workflows for materials discovery. Repository includes lecture slides, Jupyter notebooks, homework assignments, and reading lists, plus a linked YouTube lecture playlist."
   tags: ["materials informatics", "jupyter notebooks", "course"]
   open_access: true
-  license: "TODO"
+  license: "MIT"

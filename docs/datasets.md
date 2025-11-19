@@ -13,6 +13,8 @@ at the interface between chemistry, materials and machine learning / AI.
 
     {{ r.description }}
 
+    **License:** {{ r.license }}
+
     {% for tag in r.tags %}<span class="tag-pill">{{ tag }}</span>{% endfor %}
 
 {% endfor %}
@@ -29,6 +31,8 @@ at the interface between chemistry, materials and machine learning / AI.
 
     {{ r.description }}
 
+    **License:** {{ r.license }}
+
     {% for tag in r.tags %}<span class="tag-pill">{{ tag }}</span>{% endfor %}
 
 {% endfor %}
@@ -44,6 +48,8 @@ at the interface between chemistry, materials and machine learning / AI.
 - **[{{ r.title }}]({{ r.url }})**  
 
     {{ r.description }}
+
+    **License:** {{ r.license }}
 
     {% for tag in r.tags %}<span class="tag-pill">{{ tag }}</span>{% endfor %}
 
