@@ -247,6 +247,45 @@
   open_access: true
   license: "TODO"
 
+- id: bbycroft-llm-visualization
+  title: "LLM Visualization"
+  url: "https://bbycroft.net/llm"
+  domain: "foundations"
+  type: "tutorial"
+  difficulty: "intermediate"
+  prior_knowledge: "Basic understanding of neural networks and transformers is helpful, plus some linear algebra intuition"
+  est_time: "1–2 hours"
+  description: "Interactive 3D visualisation of a GPT-style large language model, showing every layer and operation during inference. You can explore the full LLM computation pipeline step by step in 3D, making the inner workings of LLMs much more tangible."
+  tags: ["large language models", "3D visualization", "interactive tutorial"]
+  open_access: true
+  license: "TODO"
+
+- id: distill-gnn-intro
+  title: "A Gentle Introduction to Graph Neural Networks"
+  url: "https://distill.pub/2021/gnn-intro/"
+  domain: "foundations"
+  type: "tutorial"
+  difficulty: "Beginner to intermediate"
+  prior_knowledge: "Familiarity with graphs and adjacency matrices"
+  est_time: "2–4 hours"
+  description: "Interactive Distill article that introduces graph neural networks from first principles, with animations, visual explanations, and code snippets. Walks through graph data, message passing, and the components of a modern GNN in an intuitive, experimentable way."
+  tags: ["graph neural networks", "interactive article", "visual explanation"]
+  open_access: true
+  license: "CC-BY-4.0"
+
+- id: vas3k-ml-for-everyone
+  title: "Machine Learning for Everyone (In Simple Words)"
+  url: "https://vas3k.com/blog/machine_learning/"
+  domain: "foundations"
+  type: "tutorial"
+  difficulty: "beginner"
+  prior_knowledge: "None; general curiosity about machine learning"
+  est_time: "1–2 hours"
+  description: "Long-form blog tutorial explaining machine learning in absolute basic, simple words, with real-world analogies and zero formal math. Focuses on intuitions, everyday examples, and plain language rather than equations, making it accessible to non-technical readers."
+  tags: ["machine learning basics", "non-technical", "real-world examples"]
+  open_access: true
+  license: "TODO"
+
 # === CHEMISTRY ===
 
 - id: epfl-ai-chem
@@ -444,6 +483,19 @@
   tags: ["machine learning chemistry", "Python notebooks", "introductory course"]
   open_access: true
   license: "TODO"
+
+- id: homemade-ml
+  title: "Homemade Machine Learning"
+  url: "https://github.com/trekhleb/homemade-machine-learning"
+  domain: "foundations"
+  type: "tutorial"
+  difficulty: "Beginner to intermediate"
+  prior_knowledge: "Python (NumPy), basic calculus, linear algebra, and introductory ML concepts"
+  est_time: "15–30 hours (working through demos and notebooks)"
+  description: "Collection of popular machine learning algorithms implemented from scratch in Python, with the underlying mathematics explained. Each algorithm is accompanied by interactive Jupyter Notebook demos so you can tweak data and hyperparameters and immediately see predictions and visualisations."
+  tags: ["from-scratch implementations", "jupyter notebooks", "classic ML algorithms"]
+  open_access: true
+  license: "MIT"
 
 # === MATERIALS SCIENCE ===
 
