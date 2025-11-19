@@ -13,6 +13,7 @@ Below is a collection of **free / open** software resources at the interface bet
     {{ r.description }}
 
     **Prior knowledge:** {{ r.prior_knowledge }}
+    **License:** {{ r.license }}
 
     {% for tag in r.tags %}<span class="tag-pill">{{ tag }}</span>{% endfor %}
 
@@ -30,6 +31,7 @@ Below is a collection of **free / open** software resources at the interface bet
     {{ r.description }}
 
     **Prior knowledge:** {{ r.prior_knowledge }}
+    **License:** {{ r.license }}
 
     {% for tag in r.tags %}<span class="tag-pill">{{ tag }}</span>{% endfor %}
 
@@ -46,6 +48,7 @@ Below is a collection of **free / open** software resources at the interface bet
     {{ r.description }}
 
     **Prior knowledge:** {{ r.prior_knowledge }}
+    **License:** {{ r.license }}
 
     {% for tag in r.tags %}<span class="tag-pill">{{ tag }}</span>{% endfor %}
 

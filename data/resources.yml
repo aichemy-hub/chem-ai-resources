@@ -31,9 +31,9 @@
   url: "https://www.coursera.org/specializations/machine-learning-introduction"
   domain: "foundations"
   type: "online course"
-  difficulty: "TODO"
-  prior_knowledge: "TODO"
-  est_time: "TODO"
+  difficulty: "Beginner"
+  prior_knowledge: "Basic coding (for loops, functions, if/else), high-school math (algebra)"
+  est_time: "2 months part-time (~10 hours/week)"
   description: "Coursera specialization introducing basic machine learning concepts with a video component and practical assignments."
   tags: ["machine learning", "course", "video"]
   open_access: "TODO"
@@ -46,11 +46,11 @@
   type: "software"
   difficulty: "Beginner"
   prior_knowledge: "Basic Python programming"
-  est_time: "TODO"
+  est_time: "-"
   description: "General-purpose machine learning library in Python with classical models, preprocessing utilities, and metrics."
   tags: ["machine learning", "python", "library"]
   open_access: true
-  license: "TODO"
+  license: "BSD"
 
 - id: pytorch
   title: "PyTorch"
@@ -59,11 +59,11 @@
   type: "software"
   difficulty: "Beginner"
   prior_knowledge: "Basic Python programming"
-  est_time: "TODO"
+  est_time: "-"
   description: "Deep learning framework with dynamic computation graphs and extensive support for neural network research and applications."
   tags: ["deep learning", "python", "framework"]
   open_access: true
-  license: "TODO"
+  license: "Caffe2"
 
 - id: tensorflow
   title: "TensorFlow"
@@ -76,7 +76,7 @@
   description: "End-to-end open-source platform for machine learning and deep learning, with support for large-scale training and deployment."
   tags: ["deep learning", "python", "framework"]
   open_access: true
-  license: "TODO"
+  license: "Apache-2.0"
 
 - id: huggingface
   title: "Hugging Face"
@@ -84,12 +84,12 @@
   domain: "foundations"
   type: "dataset"
   difficulty: "Beginner"
-  prior_knowledge: "TODO"
-  est_time: "TODO"
+  prior_knowledge: "-"
+  est_time: "-"
   description: "Ecosystem of pretrained models, datasets, and Python libraries for transformers, diffusion models, and other modern ML architectures."
   tags: ["transformers", "LLMs", "model hub"]
   open_access: true
-  license: "TODO"
+  license: "-"
 
 - id: bayesian-computation-book
   title: "Bayesian Modeling and Computation in Python"
@@ -115,7 +115,7 @@
   description: "Interactive textbook with Jupyter notebooks and runnable code (PyTorch, MXNet) for deep learning. Great hands-on start."
   tags: ["deep learning", "notebooks", "python"]
   open_access: true
-  license: "TODO"
+  license: "CC-AS-4.0"
 
 - id: geometric-deep-learning-book
   title: "Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges"
@@ -128,7 +128,7 @@
   description: "Advanced textbook covering geometric deep learning topics (manifolds, graphs, gauge theory) with some code examples. No heavy notebooks listed."
   tags: ["geometric deep learning", "graph neural networks", "manifolds"]
   open_access: true
-  license: "TODO"
+  license: "CC-BY-NC-ND"
 
 - id: interpretable-ml-book
   title: "Interpretable Machine Learning"
@@ -154,7 +154,7 @@
   description: "Textbook providing up-to-date deep learning topics (transformers, diffusion models) with exercises and interactive slides; some notebooks included."
   tags: ["deep learning", "transformers", "visual explanations"]
   open_access: true
-  license: "TODO"
+  license: "-"
 
 - id: 3blue1brown-ml
   title: "3Blue1Brown Neural Networks Video Series"
@@ -167,7 +167,7 @@
   description: "Visual and intuitive video series explaining neural networks and deep learning concepts with minimal math."
   tags: ["neural networks", "video", "visual explanations"]
   open_access: true
-  license: "TODO"
+  license: "-"
 
 - id: agents4science
   title: "Agents4Science: Agentic Scientific Discovery Platforms"
@@ -180,7 +180,7 @@
   description: "Course on AI agents in scientific discovery platforms with slides & reading materials; covers sense-plan-act-learn loops, scientific workflows. Not heavy on notebooks but substantial reading/slides."
   tags: ["AI agents", "scientific discovery", "workflow automation"]
   open_access: true
-  license: "TODO"
+  license: "-"
 
 - id: deep-neural-networks-video-course
   title: "Deep Neural Networks Video Course"
@@ -193,7 +193,7 @@
   description: "Video-course playlist covering deep neural network fundamentals. Mostly video lectures, limited notebook assignments."
   tags: ["neural networks", "video lectures", "deep learning"]
   open_access: true
-  license: "TODO"
+  license: "-"
 
 - id: mathematics-for-machine-learning-specialization
   title: "Mathematics for Machine Learning Specialization"
@@ -206,7 +206,7 @@
   description: "Coursera specialization covering linear algebra, calculus and probability for machine learning. Includes interactive Jupyter assignments."
   tags: ["mathematical foundations", "linear algebra", "probability & statistics"]
   open_access: true
-  license: "TODO"
+  license: "-"
 
 - id: ml-refined-course
   title: "Machine Learning Refined – Course Materials"
@@ -232,7 +232,7 @@
   description: "Project-based introductory curriculum on classic machine learning using scikit-learn. Provides lesson notebooks, quizzes, assignments, and solutions, organized as a 12-week, 26-lesson sequence designed for classroom use or self-study."
   tags: ["machine learning", "beginner curriculum", "scikit-learn"]
   open_access: true
-  license: "TODO"
+  license: "MIT"
 
 - id: fastai-practical-dl-for-coders
   title: "Practical Deep Learning for Coders (fast.ai)"
@@ -245,7 +245,7 @@
   description: "Hands-on deep learning course focusing on practical applications (vision, NLP, tabular, recommender systems, and diffusion models). Uses the fastai and PyTorch libraries with free compute options, combining video lectures with Jupyter notebooks and exercises."
   tags: ["deep learning", "practical course", "pytorch"]
   open_access: true
-  license: "TODO"
+  license: "-"
 
 - id: bbycroft-llm-visualization
   title: "LLM Visualization"
@@ -258,7 +258,7 @@
   description: "Interactive 3D visualisation of a GPT-style large language model, showing every layer and operation during inference. You can explore the full LLM computation pipeline step by step in 3D, making the inner workings of LLMs much more tangible."
   tags: ["large language models", "3D visualization", "interactive tutorial"]
   open_access: true
-  license: "TODO"
+  license: "-"
 
 - id: distill-gnn-intro
   title: "A Gentle Introduction to Graph Neural Networks"
@@ -284,7 +284,7 @@
   description: "Long-form blog tutorial explaining machine learning in absolute basic, simple words, with real-world analogies and zero formal math. Focuses on intuitions, everyday examples, and plain language rather than equations, making it accessible to non-technical readers."
   tags: ["machine learning basics", "non-technical", "real-world examples"]
   open_access: true
-  license: "TODO"
+  license: "-"
 
 # === CHEMISTRY ===
 
@@ -299,7 +299,7 @@
   description: "Lecture notes, slides, and notebooks for AI in chemistry, focusing on reaction prediction and synthesis planning."
   tags: ["reaction prediction", "cheminformatics", "course"]
   open_access: true
-  license: "TODO"
+  license: "MIT"
 
 - id: ml4chem
   title: "ML4Chem"
@@ -319,13 +319,13 @@
   url: "https://weisscharlesj.github.io/SciCompforChemists/notebooks/introduction/intro.html"
   domain: "chemistry"
   type: "online textbook"
-  difficulty: "TODO"
-  prior_knowledge: "TODO"
-  est_time: "TODO"
+  difficulty: "Beginner to intermediate"
+  prior_knowledge: "None, starts from basics of Python programming"
+  est_time: "10 - 15 hours (basics) + 15-30 hours (advanced topics)"
   description: "Online textbook on programming and scientific computing for chemists, featuring Python-based coding tutorials."
   tags: ["python", "scientific computing", "chemistry", "textbook"]
   open_access: true
-  license: "TODO"
+  license: "CC BY-NC-SA 4.0"
 
 - id: chemeng-rl
   title: "Reinforcement Learning for ChemEng"
