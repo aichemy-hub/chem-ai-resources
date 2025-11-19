@@ -156,6 +156,97 @@
   open_access: true
   license: "TODO"
 
+- id: 3blue1brown-ml
+  title: "3Blue1Brown Neural Networks Video Series"
+  url: "https://www.3blue1brown.com/?v=neural-networks"
+  domain: "foundations"
+  type: "tutorial"
+  difficulty: "beginner"
+  prior_knowledge: "Basic calculus, linear algebra"
+  est_time: "5 hours"
+  description: "Visual and intuitive video series explaining neural networks and deep learning concepts with minimal math."
+  tags: ["neural networks", "video", "visual explanations"]
+  open_access: true
+  license: "TODO"
+
+- id: agents4science
+  title: "Agents4Science: Agentic Scientific Discovery Platforms"
+  url: "https://agents4science.github.io/curriculum.html"
+  domain: "foundations"
+  type: "online course"
+  difficulty: "advanced"
+  prior_knowledge: "Machine learning, AI agents, scientific workflows"
+  est_time: "≈10–15 hours (lecture slides + assignments)"
+  description: "Course on AI agents in scientific discovery platforms with slides & reading materials; covers sense-plan-act-learn loops, scientific workflows. Not heavy on notebooks but substantial reading/slides."
+  tags: ["AI agents", "scientific discovery", "workflow automation"]
+  open_access: true
+  license: "TODO"
+
+- id: deep-neural-networks-video-course
+  title: "Deep Neural Networks Video Course"
+  url: "https://www.youtube.com/playlist?list=PL_iWQOsE6TfVmKkQHucjPAoRtIJYt8a5A"
+  domain: "foundations"
+  type: "online course"
+  difficulty: "beginner"
+  prior_knowledge: "Basic calculus, linear algebra, Python"
+  est_time: "8–10 hours (video playlist)"
+  description: "Video-course playlist covering deep neural network fundamentals. Mostly video lectures, limited notebook assignments."
+  tags: ["neural networks", "video lectures", "deep learning"]
+  open_access: true
+  license: "TODO"
+
+- id: mathematics-for-machine-learning-specialization
+  title: "Mathematics for Machine Learning Specialization"
+  url: "https://www.coursera.org/specializations/mathematics-machine-learning"
+  domain: "foundations"
+  type: "online course"
+  difficulty: "intermediate"
+  prior_knowledge: "High-school algebra, Python basics"
+  est_time: "4 weeks part-time (~10 hours/week)"
+  description: "Coursera specialization covering linear algebra, calculus and probability for machine learning. Includes interactive Jupyter assignments."
+  tags: ["mathematical foundations", "linear algebra", "probability & statistics"]
+  open_access: true
+  license: "TODO"
+
+- id: ml-refined-course
+  title: "Machine Learning Refined – Course Materials"
+  url: "https://github.com/neonwatty/machine-learning-refined"
+  domain: "foundations"
+  type: "online course"
+  difficulty: "Beginner to intermediate"
+  prior_knowledge: "Basic Python, matrix algebra, introductory calculus"
+  est_time: "40–60 hours (online notes, exercises, and slides)"
+  description: "Accompanying course materials for the textbook Machine Learning Refined. Includes Jupyter/Colab notebooks, chapter notes, exercises, and slides, emphasizing geometric intuition and building classic ML methods from scratch in Python."
+  tags: ["machine learning", "python notebooks", "optimization"]
+  open_access: true
+  license: "CC BY-NC-SA 4.0"
+
+- id: ml-for-beginners-microsoft
+  title: "Machine Learning for Beginners (Microsoft)"
+  url: "https://github.com/microsoft/ML-For-Beginners"
+  domain: "foundations"
+  type: "online course"
+  difficulty: "beginner"
+  prior_knowledge: "Introductory Python, high-school algebra"
+  est_time: "40–60 hours (12-week, 26-lesson curriculum)"
+  description: "Project-based introductory curriculum on classic machine learning using scikit-learn. Provides lesson notebooks, quizzes, assignments, and solutions, organized as a 12-week, 26-lesson sequence designed for classroom use or self-study."
+  tags: ["machine learning", "beginner curriculum", "scikit-learn"]
+  open_access: true
+  license: "TODO"
+
+- id: fastai-practical-dl-for-coders
+  title: "Practical Deep Learning for Coders (fast.ai)"
+  url: "https://course.fast.ai/"
+  domain: "foundations"
+  type: "online course"
+  difficulty: "intermediate"
+  prior_knowledge: "Comfortable with Python coding, basic math (algebra and simple calculus)"
+  est_time: "30+ hours (video lessons plus notebooks)"
+  description: "Hands-on deep learning course focusing on practical applications (vision, NLP, tabular, recommender systems, and diffusion models). Uses the fastai and PyTorch libraries with free compute options, combining video lectures with Jupyter notebooks and exercises."
+  tags: ["deep learning", "practical course", "pytorch"]
+  open_access: true
+  license: "TODO"
+
 # === CHEMISTRY ===
 
 - id: epfl-ai-chem
@@ -328,6 +419,32 @@
   open_access: true
   license: "CC BY-NC 3.0"
 
+- id: data-driven-chemistry-edinburgh
+  title: "Data-Driven Chemistry (University of Edinburgh)"
+  url: "https://github.com/Edinburgh-Chemistry-Teaching/Data-driven-chemistry"
+  domain: "chemistry"
+  type: "online course"
+  difficulty: "beginner"
+  prior_knowledge: "Undergraduate chemistry, basic Python"
+  est_time: "12–20 hours (10 workshop units)"
+  description: "Introductory Python/data-analysis course for chemistry students. Contains Jupyter notebooks for each unit."
+  tags: ["chemistry programming", "data-analysis", "Python notebooks"]
+  open_access: true
+  license: "CC-BY-4.0"
+
+- id: intro-ml-chemistry-ml4chemarg
+  title: "Intro to Machine Learning in Chemistry (ML4chemArg)"
+  url: "https://github.com/ML4chemArg/Intro-to-Machine-Learning-in-Chemistry"
+  domain: "chemistry"
+  type: "online course"
+  difficulty: "beginner to intermediate"
+  prior_knowledge: "Basic Python or none"
+  est_time: "10–15 hours (notebook-based course)"
+  description: "Course designed for chemistry students without prior programming experience: uses Python notebooks and real chemical data."
+  tags: ["machine learning chemistry", "Python notebooks", "introductory course"]
+  open_access: true
+  license: "TODO"
+
 # === MATERIALS SCIENCE ===
 
 - id: matchem-datasets
@@ -353,5 +470,57 @@
   est_time: "12 hours"
   description: "Software Carpentry style course aimed at teaching Python to physicists."
   tags: ["python", "scientific programming", "physicists"]
+  open_access: true
+  license: "TODO"
+
+- id: mat-inf-sparks
+  title: "Materials Informatics Video Tutorials (Taylor Sparks)"
+  url: "https://www.youtube.com/@TaylorSparks/videos"
+  domain: "materials"
+  type: "tutorials"
+  difficulty: "Beginner"
+  prior_knowledge: "Basic materials science, Python"
+  est_time: "TODO"
+  description: "Video tutorials on materials informatics by Taylor Sparks, covering various topics in the field."
+  tags: ["materials informatics", "tutorials", "video"]
+  open_access: true
+  license: "TODO"
+
+- id: automated-experiment-utk
+  title: "Automated Experiment (UTK Spring 2023)"
+  url: "https://github.com/SergeiVKalinin/UTK-Spring-2023---Automated-Experiment"
+  domain: "materials"
+  type: "online course"
+  difficulty: "intermediate"
+  prior_knowledge: "Statistics, machine learning, Python"
+  est_time: "8–12 hours (lecture slides + notebooks)"
+  description: "Course material repository for automated experiment design incorporating Gaussian processes and physics discovery. Contains Jupyter notebooks and assignments.  [oai_citation:1‡LinkedIn](https://www.linkedin.com/posts/sergei-kalinin-5bb44b18_github-sergeivkalininutk-spring-2023-activity-7071146873981464576-azzU?utm_source=chatgpt.com)"
+  tags: ["automated experimentation", "Gaussian processes", "Bayesian optimisation"]
+  open_access: true
+  license: "TODO"
+
+- id: mse-fall2023-ml-materials
+  title: "Machine Learning for Materials: From PCA to ChatGPT (UTK MSE Fall 2023)"
+  url: "https://github.com/SergeiVKalinin/MSE_Fall2023"
+  domain: "materials"
+  type: "online course"
+  difficulty: "intermediate to advanced"
+  prior_knowledge: "Undergraduate materials science, basic Python, linear algebra"
+  est_time: "30–40 hours (selected modules, readings, and notebooks)"
+  description: "Semester-length course on machine learning for materials, from PCA and classical methods to modern deep learning and large language models. Includes Jupyter notebooks, module-based materials, and project-style content focused on real materials-science problems."
+  tags: ["materials science", "machine learning", "course notebooks"]
+  open_access: true
+  license: "TODO"
+
+- id: materials-informatics-utah
+  title: "Materials Informatics (MSE5540/6640, University of Utah)"
+  url: "https://github.com/sp8rks/MaterialsInformatics"
+  domain: "materials"
+  type: "online course"
+  difficulty: "intermediate"
+  prior_knowledge: "Undergraduate materials science, basic Python, basic statistics"
+  est_time: "30–50 hours (lectures, homeworks, and worked examples)"
+  description: "Full course on materials informatics covering data repositories, featurization, best practices, and ML workflows for materials discovery. Repository includes lecture slides, Jupyter notebooks, homework assignments, and reading lists, plus a linked YouTube lecture playlist."
+  tags: ["materials informatics", "jupyter notebooks", "course"]
   open_access: true
   license: "TODO"
