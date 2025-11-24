@@ -4,6 +4,7 @@ repo_url: "https://github.com/aichemy-hub/chem-ai-resources"
 
 theme:
   name: material
+  logo: assets/logo.png
   features:
     - navigation.sections
     - navigation.instant
@@ -34,3 +35,4 @@ nav:
 
 extra_css:
   - stylesheets/tags.css
+  - stylesheets/logo.css
