@@ -1,0 +1,53 @@
+name: Check resources.yml syntax
+
+on:
+  pull_request:
+    paths:
+      - "data/resources.yml"
+      - ".github/workflows/resources-yaml-check.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "data/resources.yml"
+      - ".github/workflows/resources-yaml-check.yml"
+
+jobs:
+  yaml-validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install PyYAML
+        run: |
+          pip install pyyaml
+
+      - name: Validate data/resources.yml
+        run: |
+          python - << 'PY'
+          import sys
+          from pathlib import Path
+          import yaml
+
+          path = Path("data/resources.yml")
+          try:
+              text = path.read_text(encoding="utf-8")
+          except FileNotFoundError:
+              print(f"ERROR: {path} not found")
+              sys.exit(1)
+
+          try:
+              yaml.safe_load(text)
+          except Exception as e:
+              print(f"YAML parse error in {path}:\n{e}")
+              sys.exit(1)
+
+          print(f"{path} parsed successfully.")
+          PY
