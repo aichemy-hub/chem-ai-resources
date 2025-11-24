@@ -523,6 +523,19 @@
   open_access: true
   license: "Unlicense License"
 
+- id: iwatobipen-cheminformatics-blog
+  title: "Is Life Worth Living? — Cheminformatics Blog by @iwatobipen"
+  url: "https://iwatobipen.wordpress.com/"
+  domain: "chemistry"
+  type: "tutorial"
+  difficulty: "beginner to intermediate"
+  prior_knowledge: "Basic chemistry and Python; interest in cheminformatics"
+  est_time: "Varies (many short posts, individual topics)"
+  description: "Blog covering cheminformatics topics such as RDKit, molecular similarity, data-pipelines, and workflows. Includes code snippets, practical examples, and explains tools in clear terms."
+  tags: ["cheminformatics", "RDKit", "python workflows"]
+  open_access: true
+  license: "-"
+
 # === MATERIALS SCIENCE ===
 
 - id: matchem-datasets
@@ -621,7 +634,7 @@
   url: "https://www.royce.ac.uk/programmes/digital-materials-foundry/"
   domain: "materials"
   type: "dataset"
-  difficulty: "beginner to intermediate"
+  difficulty: "-"
   prior_knowledge: "Materials science fundamentals, interest in data workflows"
   est_time: "-"
   description: "Library of experimental materials data repositories curated by the Henry Royce Institute. Includes device-performance, stress–strain, thermoelectric, optical property databases, etc. Useful resource for ML in materials. License varies per dataset.  [oai_citation:0‡Henry Royce Institute](https://www.royce.ac.uk/programmes/digital-materials-foundry/experimental-materials-data-library/?utm_source=chatgpt.com)"
@@ -634,7 +647,7 @@
   url: "https://materialsproject.org"
   domain: "materials"
   type: "dataset"
-  difficulty: "intermediate"
+  difficulty: "-"
   prior_knowledge: "Materials science (crystallography, DFT basics) or willingness to explore APIs"
   est_time: "-"
   description: "Open-access computational materials database providing predicted and known properties of inorganic materials (e.g., formation energy, band-gap, structure) built via DFT and high-throughput workflows. Widely used in ML for materials.  [oai_citation:1‡Wikipedia](https://en.wikipedia.org/wiki/Materials_Project?utm_source=chatgpt.com)"
@@ -647,10 +660,23 @@
   url: "https://matbench.materialsproject.org/"
   domain: "materials"
   type: "dataset"
-  difficulty: "intermediate"
+  difficulty: "-"
   prior_knowledge: "Machine learning basics, materials science background helpful"
   est_time: "-"
   description: "Benchmark dataset suite curated by the Materials Project for ML-based materials property prediction. Tasks range across electronic, thermal, mechanical properties; includes APIs & leaderboard. License: MIT.  [oai_citation:3‡GitHub](https://github.com/materialsproject/matbench?utm_source=chatgpt.com)"
   tags: ["benchmark datasets", "materials ML", "property prediction"]
   open_access: true
   license: "MIT"
+
+- id: porous-material-ai-gym
+  title: "Porous Material AI Gym: Open Datasets for Machine Learning on Porous Materials"
+  url: "https://github.com/SimonEnsemble/porous-material-AI-gym"
+  domain: "materials"
+  type: "dataset"
+  difficulty: "-"
+  prior_knowledge: "Materials science (crystallography/porous materials), Python, ML basics"
+  est_time: "-"
+  description: "Collection of open datasets for machine learning pertaining to porous materials (MOFs, COFs, zeolites). Includes thousands of labelled examples (adsorption, band-gaps, charges) for supervised learning. Provides ready-to-use data for ML workflows."
+  tags: ["porous materials", "machine learning dataset", "MOFs/COFs"]
+  open_access: true
+  license: "-"
