@@ -616,7 +616,7 @@
   open_access: true
   license: "CC0 1.0"
 
-  - id: royce-digital-materials-foundry
+- id: royce-digital-materials-foundry
   title: "Digital Materials Foundry – Experimental Materials Data Library (Henry Royce Institute)"
   url: "https://www.royce.ac.uk/programmes/digital-materials-foundry/"
   domain: "materials"
