@@ -26,10 +26,15 @@ basics.
 
 ## Acknowledgements
 
-This project is maintained by the [AIchemy Hub](https://aichemy.ac.uk/).
+This project is maintained by Dan Davies and the [AIchemy Hub](https://aichemy.ac.uk/).
 
 Thanks to Austin Mroz whose [ML4Chem Starter Resources](https://github.com/austin-mroz/ML4Chem-starter-resources)
 formed a starting point for this collection.
 
 Thanks also to Aron Walsh for his [list of resources](https://aronwalsh.github.io/MLforMaterials/Resources.html)
 for machine learning and materials.
+
+Other contributors:
+
+- Alex Ganose
+- Kim Jelfs
