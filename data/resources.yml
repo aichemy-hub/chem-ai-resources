@@ -286,6 +286,19 @@
   open_access: true
   license: "-"
 
+- id: intro-statistical-learning
+  title: "An Introduction to Statistical Learning"
+  url: "https://www.statlearning.com/"
+  domain: "foundations"
+  type: "online textbook"
+  difficulty: "intermediate"
+  prior_knowledge: "Basic probability and statistics, linear algebra, and some R or Python experience"
+  est_time: "30–60 hours (full book with labs)"
+  description: "Accessible textbook on statistical learning, covering regression, classification, resampling methods, regularization, tree-based methods, SVMs, clustering, survival analysis, and more. Free PDF versions and video lectures are available, with R and Python labs at the end of each chapter for hands-on practice."
+  tags: ["statistical learning", "regression & classification", "R/Python labs"]
+  open_access: true
+  license: "TODO"
+
 # === CHEMISTRY ===
 
 - id: epfl-ai-chem
@@ -497,6 +510,19 @@
   open_access: true
   license: "MIT"
 
+- id: data-analytics-for-chemistry-imperial
+  title: "Data Analytics in Chemistry (CHEM70012 — Imperial College)"
+  url: "https://utf.github.io/DataAnalyticsChemistry/intro.html"
+  domain: "chemistry"
+  type: "online course"
+  difficulty: "beginner to intermediate"
+  prior_knowledge: "Familiarity with Python; high-school level maths/statistics"
+  est_time: "≈8–12 hours (workshop notebooks + data-analysis modules)"
+  description: "Workshop-based course introducing statistical learning, data visualisation and model building for chemical datasets. Contains Jupyter notebooks for each workshop session. Designed for masters-level chemistry undergraduates."
+  tags: ["chemistry data analysis", "statistical learning", "workshop notebooks"]
+  open_access: true
+  license: "Unlicense License"
+
 # === MATERIALS SCIENCE ===
 
 - id: matchem-datasets
@@ -576,3 +602,16 @@
   tags: ["materials informatics", "jupyter notebooks", "course"]
   open_access: true
   license: "MIT"
+
+- id: ml-for-materials-imperial
+  title: "Machine Learning for Materials (MATE70026 — Imperial College)"
+  url: "https://aronwalsh.github.io/MLforMaterials/Overview.html"
+  domain: "materials"
+  type: "online course"
+  difficulty: "intermediate"
+  prior_knowledge: "Basic Python programming, undergraduate materials science"
+  est_time: "≈12–16 hours (lectures + notebook modules + assignments)"
+  description: "Course module introducing representation of composition–structure–property data for materials, building, training and evaluating ML models, plus recent AI for science topics. Includes Jupyter notebooks for module work. From Imperial College London."
+  tags: ["materials science", "machine learning", "Jupyter notebooks"]
+  open_access: true
+  license: "CC0 1.0"
