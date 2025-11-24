@@ -615,3 +615,42 @@
   tags: ["materials science", "machine learning", "Jupyter notebooks"]
   open_access: true
   license: "CC0 1.0"
+
+  - id: royce-digital-materials-foundry
+  title: "Digital Materials Foundry – Experimental Materials Data Library (Henry Royce Institute)"
+  url: "https://www.royce.ac.uk/programmes/digital-materials-foundry/"
+  domain: "materials"
+  type: "dataset"
+  difficulty: "beginner to intermediate"
+  prior_knowledge: "Materials science fundamentals, interest in data workflows"
+  est_time: "-"
+  description: "Library of experimental materials data repositories curated by the Henry Royce Institute. Includes device-performance, stress–strain, thermoelectric, optical property databases, etc. Useful resource for ML in materials. License varies per dataset.  [oai_citation:0‡Henry Royce Institute](https://www.royce.ac.uk/programmes/digital-materials-foundry/experimental-materials-data-library/?utm_source=chatgpt.com)"
+  tags: ["experimental materials data", "materials discovery", "data-library"]
+  open_access: true
+  license: "Varies per dataset (MIT, CC-BY-4.0 etc.)"
+
+- id: materials-project
+  title: "Materials Project"
+  url: "https://materialsproject.org"
+  domain: "materials"
+  type: "dataset"
+  difficulty: "intermediate"
+  prior_knowledge: "Materials science (crystallography, DFT basics) or willingness to explore APIs"
+  est_time: "-"
+  description: "Open-access computational materials database providing predicted and known properties of inorganic materials (e.g., formation energy, band-gap, structure) built via DFT and high-throughput workflows. Widely used in ML for materials.  [oai_citation:1‡Wikipedia](https://en.wikipedia.org/wiki/Materials_Project?utm_source=chatgpt.com)"
+  tags: ["inorganic materials dataset", "DFT computed properties", "materials ML"]
+  open_access: true
+  license: "CC-BY-4.0"
+
+- id: matbench
+  title: "MatBench – Benchmark Datasets for Materials Property Prediction"
+  url: "https://matbench.materialsproject.org/"
+  domain: "materials"
+  type: "dataset"
+  difficulty: "intermediate"
+  prior_knowledge: "Machine learning basics, materials science background helpful"
+  est_time: "-"
+  description: "Benchmark dataset suite curated by the Materials Project for ML-based materials property prediction. Tasks range across electronic, thermal, mechanical properties; includes APIs & leaderboard. License: MIT.  [oai_citation:3‡GitHub](https://github.com/materialsproject/matbench?utm_source=chatgpt.com)"
+  tags: ["benchmark datasets", "materials ML", "property prediction"]
+  open_access: true
+  license: "MIT"
