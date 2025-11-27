@@ -299,6 +299,19 @@
   open_access: true
   license: "TODO"
 
+- id: official-python-tutorial
+  title: "The Python Tutorial (Official Documentation)"
+  url: "https://docs.python.org/3/tutorial/"
+  domain: "foundations"
+  type: "tutorial"
+  difficulty: "beginner"
+  prior_knowledge: "None; suitable for first-time programmers"
+  est_time: "10–20 hours (full read-through with exercises)"
+  description: "The official Python tutorial, maintained as part of the core Python documentation. Covers all essential Python concepts, from basic syntax to modules, classes, I/O, and error handling. A major advantage is that it is always updated for the very latest Python version."
+  tags: ["python basics", "official docs", "programming fundamentals"]
+  open_access: true
+  license: "PSF License"
+
 # === CHEMISTRY ===
 
 - id: epfl-ai-chem
