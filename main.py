@@ -1,5 +1,6 @@
 from pathlib import Path
 import yaml
+from datetime import datetime, timezone
 
 # Order in which domains should appear
 DOMAIN_ORDER = ["foundations", "chemistry", "materials"]
@@ -53,3 +54,7 @@ def define_env(env):
             return (domain_index, (r.get("title") or "").lower())
 
         return sorted(resources, key=sort_key)
+
+    @env.macro
+    def last_updated():
+        return datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")

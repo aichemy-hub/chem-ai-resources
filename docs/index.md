@@ -38,3 +38,7 @@ Other contributors:
 
 - Alex Ganose
 - Kim Jelfs
+
+---
+
+_Last updated: {{ last_updated() }}_
