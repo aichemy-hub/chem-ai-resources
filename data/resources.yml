@@ -536,6 +536,19 @@
   open_access: true
   license: "-"
 
+- id: imperial-python-chem-intro
+  title: "Introduction to Python for Chemists (Imperial College)"
+  url: "https://github.com/imperialchem/python-prog-intro"
+  domain: "chemistry"
+  type: "tutorial"
+  difficulty: "beginner"
+  prior_knowledge: "High-school chemistry, basic mathematics"
+  est_time: "≈5–10 hours (notebooks + exercises)"
+  description: "Introductory Python course starting at very basics tailored to chemists: basic syntax, data handling, and chemical-data examples. Contains Jupyter notebooks and worked examples to help chemists get started coding."
+  tags: ["chemistry", "python basics", "notebooks"]
+  open_access: true
+  license: "CC-BY-4.0"
+
 # === MATERIALS SCIENCE ===
 
 - id: matchem-datasets
