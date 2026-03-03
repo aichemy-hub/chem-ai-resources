@@ -1,4 +1,4 @@
-# Online Textbooks
+# Courses & Course Materials
 
 Below is a collection of **free / open** online courses and course materials at the interface between chemistry, materials and machine learning / AI.
 
